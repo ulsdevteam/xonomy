@@ -368,7 +368,7 @@
 #xonomyBubble.laic #xonomyBubbleContent textarea.textbox { font-family: monospace; font-size: 1rem; width: 400px; height: 100px; border: 1px solid #dddddd; font-size: 0.85rem; }
 
 /*When the pop-up is a list of warnings*/
-#xonomyBubble.laic #xonomyBubbleContent .warning { padding: 5px 10px; }
+#xonomyBubble.laic #xonomyBubbleContent .x_warning { padding: 5px 10px; }
 
 #xonomyBubble.laic button.buttonSearch { background-image: url(magnifier.png); background-position: center center; background-repeat: no-repeat; padding: 4px 15px; border-width: 1px; border-radius: 2px; }
 #xonomyBubble.laic button.buttonCreate { background-image: url(add.png); background-position: center center; background-repeat: no-repeat; padding: 4px 15px; border-width: 1px; border-radius: 2px; }

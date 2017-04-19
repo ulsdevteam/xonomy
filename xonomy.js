@@ -794,7 +794,7 @@ Xonomy.click=function(htmlID, what) {
 			for(var iWarning=0; iWarning<Xonomy.warnings.length; iWarning++) {
 				var warning=Xonomy.warnings[iWarning];
 				if(warning.htmlID==htmlID) {
-					content+="<div class='warning'>"+Xonomy.formatCaption(Xonomy.textByLang(warning.text))+"</div>";
+					content+="<div class='x_warning'>"+Xonomy.formatCaption(Xonomy.textByLang(warning.text))+"</div>";
 				}
 			}
 			document.body.appendChild(Xonomy.makeBubble(content)); //create bubble
