@@ -813,6 +813,8 @@ Xonomy.click=function(htmlID, what) {
 		}
 		Xonomy.notclick=true;
 	}
+        xonomy_click_passthrough(htmlID, what);
+        
 };
 Xonomy.notclick=false; //should the latest click-off event be ignored?
 Xonomy.clearChars=false; //if true, un-highlight any highlighted characters at the next click-off event
